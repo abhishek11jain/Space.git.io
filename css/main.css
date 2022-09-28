@@ -1,0 +1,446 @@
+.hideable-section {
+    display: none;
+}
+.hideable-section:first-of-type {
+    display: block !important;
+}
+#content{
+    display: block;
+}
+.container-fluid{
+    overflow: hidden;
+    padding: 0%;
+}
+/*  ----------------------------- common start --------------------------   */
+.section-navbar .navbar-brand,
+.section-navbar .navbar-nav li a,
+.content-section .section-content h1,
+.content-section .section-content p,
+.content-section .text p,
+.service-section .text p,
+.section-product .text p,
+.video-section .text p,
+.end-section .text p,
+.service-section .service h6,
+.service-section .service p,
+.section-product h2,
+.end-section .section-end p,
+.end-section .section-end a,
+.end-section .form-control,
+.end-section input::placeholder,
+.end-section textarea::placeholder,
+.footer-section .png h6,
+.footer-section .png p,
+.footer-section .arrow p,
+.footer-section .arrow
+{
+    color: #fff;
+}
+
+
+.section-navbar .navbar-brand span,
+.section-navbar .icon,
+.content-section .section-content h1 a,
+.content-section .section-content h1 a:hover,
+.content-section .section-content .primary-btn,
+.service-section .service .primary-btn,
+.end-section .section-end h6,
+.section-navbar .nav-item a:hover
+{
+    color: yellow;
+}
+
+
+.content-section .section-content .primary-btn,
+.service-section .service .primary-btn,
+.content-section .section-content .primary-btn:active,
+.service-section .service .primary-btn:active,
+.end-section .form-control,
+.btn-outline-primary:hover{
+    background: transparent;
+}
+
+
+.content-section .section-content .primary-btn:focus,
+.service-section .service .primary-btn:focus,
+.end-section input:focus,
+.end-section textarea:focus,
+.btn-outline-primary:focus
+{
+    box-shadow: none !important;
+}
+
+
+.section-navbar .navbar-brand,
+.content-section .section-content h1 span,
+.content-section .section-content .primary-btn,
+.service-section .service .primary-btn,
+.content-section .text p span,
+.service-section .text p span,
+.section-product .text p span,
+.video-section .text p span,
+.end-section .text p span,
+.service-section .service h6
+{
+    font-weight: bold;
+}
+
+
+.end-section textarea,
+.end-section input,
+.end-section input:focus,
+.end-section textarea:focus
+{
+    border-color: white !important ;
+}
+
+
+.service-section .service p,
+.content-section .section-content .primary-btn,
+.service-section .service .primary-btn,
+.service-section .service h6,
+.end-section .section-end h6
+{
+    text-align: center;
+}
+
+
+.content-section .text p,
+.service-section .text p,
+.section-product .text p,
+.video-section .text p,
+.end-section .text p
+{
+    font-size: 20px;
+}
+.content-section .text p span,
+.service-section .text p span,
+.section-product .text p span,
+.video-section .text p span,
+.end-section .text p span,
+.footer-section .png h6,
+.footer-section .arrow p
+{
+    font-size: 30px;
+}
+/*  ----------------------------- common close --------------------------   */
+
+
+/*  ----------------------------- navbar start --------------------------   */
+
+.section-navbar .navbar-nav li a{
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.section-navbar .navbar-nav{
+    margin-right:36%;
+}
+.section-navbar .icon{
+    position: fixed;
+}
+.section-navbar .icon:hover{
+    cursor: pointer;
+}
+/*  ----------------------------- navbar close --------------------------   */
+/*  ----------------------------- section 1 start --------------------------   */
+.content-section .section-content{
+    margin-bottom: 97px;
+}
+.content-section .section-content h1{
+    font-size: 2em;
+    font-weight: 400;
+    padding-top: 170px;
+}
+.content-section .section-content p{
+    font-size: 10px;
+    font-weight: 400;
+}
+.content-section .section-content .primary-btn,
+.service-section .service .primary-btn{
+    font-size: 13px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+.content-section .section-content .primary-btn:active,
+.service-section .service .primary-btn:active{
+    border: none;
+}
+.content-section .text{
+    margin-top: 200px;
+    margin-left: 40%;
+}
+/*  ----------------------------- section 1 close--------------------------   */
+/* ----------------------------- section 2 start --------------------------  */
+.service-section{
+    padding-top: 85px;
+    padding-bottom: 17px;
+}
+.service-section .service img{
+    height: 35px;
+}
+.service-section .service h6{
+    font-size: 11px;
+    margin-top: 5px;
+}
+.service-section .service p{
+    font-size: 9px;
+}
+.service-section .service{
+    padding-top: 10px;
+}
+.service-section .text{
+    margin-top: 115px;
+    margin-left: 40%;
+}
+/* ----------------------------- section 2 close --------------------------  */
+/* ----------------------------- section 3 start --------------------------  */
+.section-product{
+    margin-top: 91px;
+}
+.section-product .product-section{
+    height: 300px;
+    clip-path: polygon(18% 0, 96% 8%, 79% 100%, 0 100%);
+}
+.section-product .product-section img{
+    height: 300px;
+    width: 100%;
+    border-bottom: 4px solid yellow;
+}
+.section-product .product-0{
+    margin-top: 20px;
+}
+.section-product .product{
+    right: 6%;
+}
+.section-product .product1{
+    right: 12.5%;
+    margin-top: 22px;
+}
+.section-product .product2{
+    right: 18%;
+}
+.section-product h2{
+    font-size: 1em;
+    margin-left: 35px;
+}
+.section-product .text{
+    margin-top: 110px;
+    margin-left: -52%;
+}
+/* ----------------------------- section 3 close --------------------------  */
+/* ----------------------------- section 4 start --------------------------  */
+.video-section{
+    /* padding-top: 20px; */
+}
+.video-section .section-video{
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+}
+.video-section .text {
+    margin-top: 200px;
+    margin-left: 40%;
+}
+.section-video video{
+    height: 200px;
+    width: 100%;
+    border-bottom: 4px solid yellow;
+}
+.section-video video:focus{
+    border :none !important;
+    outline: none !important;
+    border-bottom: 4px solid yellow !important;
+}
+/* ----------------------------- section 4 close --------------------------  */
+/* ----------------------------- section 5 start --------------------------  */
+.end-section{
+    margin-top: 80px;
+    padding-bottom: 10px;
+}
+.end-section .section-end{
+    height: 150px;
+    width: 100%;
+    border: 1px solid yellow;
+}
+.end-section .section-end h6{
+    padding-top: 35px;
+}
+.end-section .section-end a{
+   text-decoration: none;
+}
+.end-section .form-control{
+    border-radius: 0%;
+    margin-top: 10px;
+}
+
+.end-section .form-group{
+    margin-top: 40px;
+}
+.btn-outline-primary{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 0%;
+    background-color: #fff;
+    color: black;
+    border: 1px solid white;
+}
+
+.btn-outline-primary:focus{
+    background: transparent !important;
+    border: 1px solid white !important;
+}
+.end-section .text{
+    margin-top: 120px;
+    margin-left: 40%;
+}
+
+/* ----------------------------- section 5 close --------------------------  */
+/* ----------------------------- footer start --------------------------  */
+.footer-section {
+    margin-top: 35px;
+}
+.footer-section .png img{
+    height: 35px;
+    margin-left: 80%;
+}
+.footer-section .png h6{
+    text-align: right;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.footer-section .png p{
+    font-size: 10px;
+    text-align: right;
+}
+.footer-section .arrow p{
+    transform: rotate(270deg);
+    font-size: 10px;
+    margin-top: -10px;
+}
+.footer-section .fa-long-arrow-down{
+    font-size: 20px;
+    margin-top: 24px;
+    margin-left: 38px;
+}
+/* ----------------------------- footer close --------------------------  */
+
+
+
+/* ----------------------------- media query on small screen --------------------------  */
+@media only screen and (max-width: 640px) and (min-width: 360px) {
+    /* ----------------------------- navbar start --------------------------  */
+    .content-section{
+        margin-top: 20px;
+        margin-bottom: -20%;
+    }
+    .section-navbar .navbar{
+        background-color: rgba(34, 33, 33, 0.699);
+    }
+    .section-navbar .navbar-brand{
+        margin-left: 0%;  
+    }
+    .section-navbar .navbar-nav{
+        margin-right: 0%;
+        text-align: center;
+    }
+    .section-navbar .navbar-nav li{
+        margin-left: 0px;
+    }
+    .section-navbar .icon{
+        margin-left: 0%;
+        text-align: center;
+    }
+    .content-section .text{
+        margin-top: 130%;
+    }
+    /* ------------------------------------------------------------------------------- */
+    .content-section .section-content h1{
+        font-size: 1em;
+        padding-top: 30%;
+    }
+    .content-section .text{
+        margin-left: -20px;
+    }
+    .content-section .section-content .primary-btn{
+        width: 80%;
+    }
+    .icon{
+        visibility: hidden;
+    }
+    /* ------------------------------------------------------------------------------- */
+    .footer-section .arrow p{
+        margin-top: 35px;
+        margin-left: 43px;
+    }
+    .footer-section .arrow i{
+        margin-top: -20px;
+    }
+    /* ------------------------------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------- */
+    .service-section,
+    .video-section,
+    .section-product,
+    .end-section
+    {
+        padding: 40px;
+        margin-top: -30px;
+    }
+    .end-section .form-group {
+        margin-top: 0px;
+    }
+    .section-product .product-0{
+        margin-top: 0px;
+    }
+    .section-product .product{
+        right: 0%;
+    }
+    .section-product .product1{
+        right:0%;
+        margin-top: 0px;
+    }
+    .section-product .product2{
+        right: 0%;
+    }
+    .section-product .product-section{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .section-product .product-section img{
+        width: 100%;
+    }
+    .section-product h2{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-end{
+        margin-top: 20px;
+    }
+
+    .section-product .text  {
+        margin-left: 40%;
+    }
+    /* ------------------------------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------- */
+}
+
+
+/* ----------------------------- media query on big screen (ipad pro) --------------------------  */
+    .section-navbar .icon{
+        margin-right: 20px;
+    }
+    /* ------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1100px) and (min-width: 900px) {
+    .footer-section .arrow p{
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+    .footer-section .arrow i{
+        margin-top: -20px;
+    }
+    /* ------------------------------------------------------------------------------- */
+    .service-section .service .primary-btn{
+        width: 50%;
+    }
+}
